@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html>
+	<head>
+	    <title>Ewan Hempsey</title>
+	    <meta name="description" content="The website for Ewan Hempsey">
+	    <meta name="keywords" content="Ewan Hempsey Software Website Developer">
+          <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="header">
+          <h2 class="name">Ewan Hempsey</h2>
+          <p class="desc">Web and Software Developer.</p>
+        </div>
+        <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#example">Examples</a></li>
+        <li><a class="right" href="#contact">Contact me</a></li>
+        </ul>
+        </nav>
+        <main>
+            <div style="background-color: #111111">
+            <div class="grid-container">
+  <div class="grid-item item1"><img class="photoperson" src="images/ewan.png"></div>
+                <div class="grid-item item2"><h1 class="image-text"> "Bring your dreams to life with your own <span class="emphasise-blue">web-application</span>. Designed and crafted with <span class="emphasise-blue">you</span> in mind." </h1></div>
+  <div class="grid-item item3"><h3 class="signature"> Ewan Hempsey</h3></div>
+
+</div>
+</div>
+            <h2 class="subtitle"> Education</h2>
+
+        </main>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+        <h3>Sticky Navigation Bar Example</h3>
+        <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
+        <p><strong>Note:</strong> Internet Explorer do not support sticky positioning and Safari requires a -webkit- prefix.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+	</body>
+<script>
+const observer = new IntersectionObserver(entries => {
+  // Loop over the entries
+  entries.forEach(entry => {
+    // If the element is visible
+    if (entry.isIntersecting) {
+      // Add the animation class
+      entry.target.classList.add('grid-container-animated');
+    }
+  });
+});
+
+observer.observe(document.querySelector('.grid-container'));
+</script>
+	</html>
